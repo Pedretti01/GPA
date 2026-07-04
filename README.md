@@ -6,7 +6,8 @@
 
 ![Status](https://img.shields.io/badge/status-em%20concepção-blue)
 ![Arquitetura](https://img.shields.io/badge/arquitetura-modular-success)
-![Multiplataforma](https://img.shields.io/badge/Desktop-Web-Tablet-Mobile-orange)
+![MVP](https://img.shields.io/badge/MVP-Alfabetização-orange)
+![Plataformas](https://img.shields.io/badge/plataformas-Web%20%7C%20Desktop%20%7C%20Tablet%20%7C%20Mobile-success)
 
 ---
 
@@ -84,9 +85,9 @@ Arquitetura de Plataforma
         │
       Core
         │
- ┌──────┼─────────────┐
- │      │             │
-Alfabetização Matemática Ciências
+ ┌──────|───────────┐──────────┐
+ │                  │          │
+Alfabetização   Matemática  Ciências
 ```
 
 O **Core** concentra componentes reutilizáveis:
