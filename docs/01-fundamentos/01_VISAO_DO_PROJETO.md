@@ -40,7 +40,7 @@ Desenvolver uma ferramenta multiplataforma de gamificação pedagógica capaz de
 
 ---
 
-# 4. Plataforma Multiplataforma
+# 4. Ferramenta Multiplataforma
 
 A ferramenta foi concebida como uma solução educacional multiplataforma.
 
