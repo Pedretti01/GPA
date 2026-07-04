@@ -4,10 +4,10 @@
 
 > Uma ferramenta multiplataforma destinada ao planejamento, organização, aplicação e acompanhamento de recursos pedagógicos digitais, fundamentada em Objetos Pedagógicos, Atividades Parametrizadas, Gamificação Pedagógica e Learning Analytics.
 
-![Status](https://img.shields.io/badge/status-em%20concepção-blue)
-![Arquitetura](https://img.shields.io/badge/arquitetura-modular-success)
+![Status](https://img.shields.io/badge/status-em%20concepção-red)
+![Arquitetura](https://img.shields.io/badge/arquitetura-modular-yellow)
 ![MVP](https://img.shields.io/badge/MVP-Alfabetização-orange)
-![Plataformas](https://img.shields.io/badge/plataformas-Web%20%7C%20Desktop%20%7C%20Tablet%20%7C%20Mobile-success)
+![Plataformas](https://img.shields.io/badge/plataformas-Web%20%7C%20Desktop%20%7C%20Tablet%20%7C%20Mobile-blue)
 
 ---
 
