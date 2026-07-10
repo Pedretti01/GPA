@@ -73,7 +73,6 @@ A arquitetura contempla os seguintes perfis:
 
 <div align="center">
 
-```markdown
 ![Arquitetura Geral](../assets/arquitetura/arquitetura-geral-gpa.png)
 
 **Figura 2 – Arquitetura Geral - GPA**
