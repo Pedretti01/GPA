@@ -2,49 +2,90 @@
 
 # Visão do Projeto
 
-**Ferramenta Multiplataforma de Apoio à Alfabetização**  
-**Versão:** 0.3.0
+**GPA – Gamificação Pedagógica de Aprendizagens**  
+**Documento:** Visão do Projeto  
+**Versão:** 1.3.3
+**Área:** Fundamentos
 
 ---
 
 # 1. Introdução
 
-A Ferramenta Multiplataforma de Apoio à Alfabetização é um projeto voltado ao desenvolvimento de recursos digitais capazes de apoiar o processo de alfabetização por meio de atividades gamificadas, indicadores objetivos e evidências pedagógicas.
+O **GPA – Gamificação Pedagógica de Aprendizagens** é uma plataforma multiplataforma desenvolvida para apoiar o processos de aprendizaegns, entre eles a  alfabetização por meio da integração entre tecnologia, gamificação e acompanhamento pedagógico baseado em evidências.
 
-A proposta inicial utiliza diferentes formas de representação de um mesmo conceito para estimular a associação entre linguagem escrita, linguagem oral e representação visual.
+O projeto propõe um ambiente capaz de disponibilizar atividades pedagógicas digitais, registrar indicadores objetivos de aprendizagem e fornecer informações que auxiliem professores, gestores e instituições educacionais na tomada de decisões pedagógicas.
 
-O projeto será desenvolvido de forma incremental, iniciando com um único módulo de aprendizagem: **Associação Trimodal**.
+Sua arquitetura foi concebida para ser modular, escalável e independente de plataforma, permitindo a evolução contínua da solução conforme novas estratégias pedagógicas forem incorporadas.
+
+A primeira implementação concentra-se no módulo **Associação Trimodal**, utilizado como base para validação da arquitetura pedagógica e tecnológica do sistema.
 
 ---
 
-# 2. Problema
+# 2. Visão Geral da Plataforma
 
-O processo de alfabetização exige acompanhamento constante por parte do professor.
+A Figura 1 apresenta uma visão conceitual do GPA, evidenciando seus principais pilares e a forma como a plataforma integra os aspectos pedagógicos, tecnológicos e de governança.
 
-Embora existam diversos jogos educativos disponíveis, poucos fornecem informações objetivas que auxiliem o professor a compreender quais conteúdos apresentam maior facilidade ou dificuldade para cada estudante.
+O diagrama não representa a arquitetura de software nem o modelo de dados do sistema. Seu objetivo é fornecer uma visão estratégica da plataforma e demonstrar como seus componentes se relacionam para apoiar o processo de alfabetização.
 
-A ferramenta pretende contribuir com esse acompanhamento, registrando dados como:
+<div align="center">
+
+![Visão Geral do GPA](../assets/diagramas/visao-geral-gpa.svg)
+
+**Figura 1 – Visão conceitual da plataforma GPA.**
+
+</div>
+
+---
+
+# 3. Problema
+
+O processo de alfabetização exige acompanhamento contínuo, intervenções pedagógicas oportunas e evidências que permitam compreender a evolução de cada estudante.
+
+Embora existam diversas aplicações educacionais voltadas à alfabetização, poucas oferecem mecanismos consistentes para registrar indicadores de aprendizagem e transformá-los em informações úteis ao planejamento pedagógico.
+
+O GPA busca preencher essa lacuna por meio da coleta estruturada de dados durante a execução das atividades, permitindo acompanhar aspectos como:
 
 - tempo de resposta;
 - quantidade de tentativas;
-- quantidade de erros;
 - quantidade de acertos;
-- evolução do estudante;
+- quantidade de erros;
+- evolução individual;
+- evolução da turma;
+- conteúdos com maior facilidade;
 - conteúdos com maior dificuldade.
 
----
-
-# 3. Objetivo Geral
-
-Desenvolver uma ferramenta multiplataforma de gamificação pedagógica capaz de apoiar o processo de alfabetização por meio de atividades digitais que produzam indicadores objetivos da aprendizagem.
+Essas informações constituem evidências objetivas que apoiam, mas não substituem, a avaliação realizada pelo professor.
 
 ---
 
-# 4. Ferramenta Multiplataforma
+# 4. Objetivo Geral
 
-A ferramenta foi concebida como uma solução educacional multiplataforma.
+Desenvolver uma plataforma multiplataforma de gamificação pedagógica de aprendizagens, entre elas a alfabetização, capaz de integrar atividades educacionais digitais, objetos pedagógicos, indicadores de aprendizagem, dashboards e relatórios, apoiando professores e gestores no acompanhamento do processo de ensino e aprendizagem.
 
-Seu objetivo é permitir que professores e estudantes utilizem os mesmos recursos pedagógicos em diferentes dispositivos, respeitando as características de cada ambiente.
+---
+
+# 5. Princípios do Projeto
+
+O GPA foi concebido com base nos seguintes princípios:
+
+- foco no processo pedagógico;
+- aprendizagem baseada em evidências;
+- arquitetura modular;
+- independência tecnológica;
+- escalabilidade;
+- reutilização de objetos pedagógicos;
+- interoperabilidade entre módulos;
+- experiência de uso consistente em diferentes plataformas.
+
+Esses princípios orientam tanto a arquitetura pedagógica quanto a arquitetura de software do projeto.
+
+---
+
+# 6. Sistema Multiplataforma
+
+O GPA foi concebido como uma solução educacional multiplataforma.
+
+A mesma base de dados, regras de negócio e objetos pedagógicos poderá ser utilizada em diferentes ambientes computacionais, garantindo consistência funcional e pedagógica.
 
 Os ambientes previstos são:
 
@@ -53,163 +94,184 @@ Os ambientes previstos são:
 - Tablet;
 - Smartphone.
 
-Independentemente do dispositivo utilizado, todos compartilharão:
+Independentemente da plataforma utilizada, serão compartilhados:
 
 - Objetos Pedagógicos;
 - Planos de Atividade;
-- Execuções da Atividade;
+- Execuções das Atividades;
 - Indicadores;
 - Dashboards;
 - Relatórios;
-- Histórico das atividades.
+- Histórico de aprendizagem.
 
-A interface poderá adaptar-se às características de cada dispositivo, preservando sempre a coerência funcional e pedagógica da ferramenta.
-
----
-
-# 5. Objetivos Específicos
-
-São objetivos da primeira versão:
-
-- desenvolver o módulo Associação Trimodal;
-- estimular a associação entre palavra, imagem e áudio;
-- registrar indicadores de desempenho durante a atividade;
-- gerar relatórios destinados ao professor;
-- permitir acompanhamento da evolução do estudante;
-- preservar uma arquitetura preparada para uso em Desktop, Web, Tablet e Smartphone.
+Cada interface poderá adaptar-se às características do dispositivo, preservando a mesma experiência pedagógica.
 
 ---
 
-# 6. Público-Alvo
+# 7. Objetivos Específicos
 
-## 6.1 Professor
+Entre os objetivos da versão inicial destacam-se:
 
-Responsável por:
-
-- cadastrar estudantes;
-- organizar turmas;
-- cadastrar Objetos Pedagógicos;
-- configurar Planos de Atividade;
-- acompanhar indicadores;
-- analisar Dashboards;
-- emitir Relatórios;
-- planejar intervenções pedagógicas.
-
-## 6.2 Estudante
-
-Responsável pela realização das atividades propostas pela ferramenta.
-
-O estudante utilizará apenas os recursos necessários para execução das atividades.
+- implementar o módulo Associação Trimodal;
+- disponibilizar objetos pedagógicos reutilizáveis;
+- registrar indicadores objetivos durante a execução das atividades;
+- gerar relatórios pedagógicos;
+- disponibilizar dashboards de acompanhamento;
+- apoiar o planejamento pedagógico;
+- validar a arquitetura modular da plataforma.
 
 ---
 
-# 7. Escopo da Primeira Versão
+# 8. Público-Alvo
 
-A primeira versão contempla exclusivamente o desenvolvimento do módulo **Associação Trimodal**.
+O GPA foi concebido para atender diferentes perfis de usuários.
 
-Esse módulo consiste em uma atividade de associação entre três formas distintas de representação de um mesmo conceito:
+## Professor
+
+Responsável pelo planejamento das atividades pedagógicas, acompanhamento da aprendizagem e análise dos indicadores produzidos pelo sistema.
+
+## Coordenador Pedagógico
+
+Responsável pelo acompanhamento pedagógico das turmas e apoio aos professores.
+
+## Diretor Escolar
+
+Responsável pelo acompanhamento institucional dos indicadores educacionais.
+
+## Gestores Educacionais
+
+Responsáveis pela análise consolidada das informações produzidas pelas unidades escolares.
+
+## Responsáveis
+
+Acompanham o desenvolvimento do estudante por meio das informações disponibilizadas pela instituição.
+
+## Estudante
+
+Realiza as atividades pedagógicas propostas, interagindo exclusivamente com os recursos necessários ao processo de aprendizagem.
+
+---
+
+# 9. Escopo da Primeira Versão
+
+A primeira versão do GPA concentra-se na implementação do módulo **Associação Trimodal**.
+
+Esse módulo utiliza três formas complementares de representação de um mesmo conceito:
 
 - Palavra Escrita;
 - Imagem;
 - Áudio.
 
-Não fazem parte da primeira versão outros jogos ou estratégias de aprendizagem.
+Além da atividade pedagógica, a primeira versão contempla:
+
+- cadastro de Objetos Pedagógicos;
+- cadastro de Planos de Atividade;
+- execução das atividades;
+- registro de indicadores;
+- dashboards básicos;
+- relatórios pedagógicos.
 
 ---
 
-# 8. Benefícios Esperados
+# 10. Benefícios Esperados
 
-## 8.1 Para o estudante
+## Para o estudante
 
-- desenvolvimento da associação entre diferentes formas de representação;
-- estímulo à leitura;
-- estímulo à percepção auditiva;
-- estímulo ao reconhecimento visual;
-- aprendizagem por meio da gamificação pedagógica.
+- aprendizagem mediada por gamificação;
+- fortalecimento das associações entre linguagem escrita, visual e oral;
+- maior engajamento nas atividades;
+- acompanhamento contínuo da evolução.
 
-## 8.2 Para o professor
+## Para professores e gestores
 
-- acompanhamento objetivo do desempenho;
-- identificação de conteúdos com maior dificuldade;
-- identificação de conteúdos com maior facilidade;
-- histórico de evolução;
-- apoio ao planejamento pedagógico.
+- evidências objetivas da aprendizagem;
+- acompanhamento individual e coletivo;
+- apoio ao planejamento pedagógico;
+- identificação de dificuldades de aprendizagem;
+- suporte à tomada de decisão.
 
 ---
 
-# 9. Indicadores Produzidos
+# 11. Indicadores Pedagógicos
 
-A ferramenta registrará automaticamente informações como:
+Durante a execução das atividades, o GPA registrará automaticamente informações como:
 
 - tempo de execução;
 - tempo por associação;
-- quantidade de tentativas;
+- número de tentativas;
 - quantidade de acertos;
-- quantidade de erros.
+- quantidade de erros;
+- evolução individual;
+- evolução por turma.
 
-Esses indicadores serão utilizados na construção dos relatórios pedagógicos.
-
----
-
-# 10. Relatórios e Dashboards
-
-Os relatórios terão como finalidade apoiar o professor por meio da organização das evidências produzidas durante as atividades.
-
-Os Dashboards permitirão acompanhamento visual e interativo dos indicadores.
-
-A ferramenta não realiza diagnóstico automático do nível de alfabetização do estudante.
-
-Os relatórios e Dashboards representam evidências quantitativas que poderão auxiliar a avaliação pedagógica conduzida pelo professor.
+Esses indicadores constituem a base para geração de relatórios e dashboards.
 
 ---
 
-# 11. Limites do Projeto
+# 12. Relatórios e Dashboards
 
-A primeira versão não contempla:
+Os relatórios e dashboards têm como objetivo transformar os dados coletados em informações úteis ao acompanhamento pedagógico.
 
-- diagnóstico automático da hipótese de escrita;
+O GPA fornece evidências quantitativas de aprendizagem, preservando ao professor a responsabilidade pela interpretação pedagógica dos resultados.
+
+O sistema não realiza diagnóstico automático do nível de alfabetização.
+
+---
+
+# 13. Limites da Versão Inicial
+
+Não fazem parte da versão inicial:
+
 - inteligência artificial;
 - reconhecimento de voz;
-- novos jogos pedagógicos;
-- atividades de produção textual;
-- atividades matemáticas.
+- diagnóstico automático da hipótese de escrita;
+- atividades matemáticas;
+- produção textual;
+- novos módulos pedagógicos além da Associação Trimodal.
 
-Esses recursos poderão ser estudados futuramente, porém não fazem parte do escopo atual.
-
----
-
-# 12. Expansão da Ferramenta
-
-A arquitetura foi concebida para permitir crescimento modular.
-
-Novos recursos poderão ser incorporados futuramente sem comprometer a estrutura existente.
-
-Entretanto, toda expansão deverá ocorrer somente após a consolidação do módulo Associação Trimodal.
-
-As possibilidades futuras serão registradas no documento:
-
-```text
-docs/04-governanca/IDEIAS.md
-```
+Esses recursos poderão ser incorporados futuramente de forma modular.
 
 ---
 
-# 13. Critérios de Sucesso
+# 14. Evolução da Plataforma
 
-A primeira versão será considerada concluída quando permitir:
+A arquitetura do GPA foi concebida para permitir crescimento incremental.
 
-- cadastro dos Objetos Pedagógicos;
-- execução dos três modos da Associação Trimodal;
-- registro dos indicadores definidos;
-- geração de relatórios básicos para o professor;
-- funcionamento estável da ferramenta nos ambientes previstos.
+Novos módulos pedagógicos poderão ser incorporados sem comprometer a estrutura existente, preservando os princípios de modularidade, reutilização e escalabilidade.
+
+As propostas de evolução são registradas na documentação de governança do projeto.
 
 ---
 
-# 14. Considerações Finais
+# 15. Critérios de Sucesso
 
-A ferramenta foi concebida para crescer de forma gradual.
+A primeira etapa da plataforma será considerada consolidada quando permitir:
 
-A primeira versão concentra esforços na construção de um único módulo de aprendizagem, permitindo validar tanto os aspectos pedagógicos quanto os tecnológicos antes da expansão para novos recursos.
+- gerenciamento de Objetos Pedagógicos;
+- execução do módulo Associação Trimodal;
+- registro consistente dos indicadores definidos;
+- geração de dashboards;
+- emissão de relatórios pedagógicos;
+- funcionamento estável em diferentes plataformas.
 
-Essa abordagem busca garantir simplicidade, qualidade e consistência durante todo o desenvolvimento do projeto.
+---
+
+# 16. Relação com os Demais Documentos
+
+Este documento apresenta a visão estratégica do GPA.
+
+Sua leitura é complementada pelos seguintes documentos:
+
+- Arquitetura Pedagógica
+- Arquitetura de Software
+- Modelo de Domínio
+- Arquitetura Multiplataforma
+- Fluxos da Aplicação
+
+---
+
+# 17. Considerações Finais
+
+O GPA foi concebido para evoluir de forma incremental, preservando o alinhamento entre arquitetura pedagógica, arquitetura de software e objetivos educacionais.
+
+A consolidação do módulo Associação Trimodal representa a primeira etapa dessa evolução, estabelecendo uma base sólida para futuras expansões da plataforma e para a incorporação de novos recursos pedagógicos.

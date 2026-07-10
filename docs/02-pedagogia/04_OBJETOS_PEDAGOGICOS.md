@@ -2,8 +2,10 @@
 
 # Objetos Pedagógicos
 
-**Ferramenta Multiplataforma de Apoio à Alfabetização**  
+**GPA – Gamificação Pedagógica de Aprendizagens**  
+**Documento:** Objetos Pedagógicos 
 **Versão:** 0.2.0
+**Área:** Pedagogia
 
 ---
 

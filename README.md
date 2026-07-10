@@ -240,6 +240,8 @@ Todos compartilham o mesmo modelo de dados, regras de negócio e indicadores.
 
 - Flutter
 - Dart
+- Python
+- PostgreSQL
 - SQLite
 
 ## Ferramentas de Desenvolvimento
@@ -262,20 +264,15 @@ O desenvolvimento do software será iniciado após a consolidação da documenta
 
 # Roadmap
 
-## GPA
-
-- [x] Documentação Conceitual
-- [x] Arquitetura Pedagógica
-- [x] Arquitetura de Software
-- [ ] Implementação do Core
-- [ ] MVP
-
-## Domínio Alfabetização
-
-- [x] Especificação da Associação Trimodal (MVP)
-- [ ] Desenvolvimento
-- [ ] Testes
-- [ ] Validação Pedagógica
+| Fase | Status |
+|------|--------|
+| Concepção | ✅ |
+| Fundamentos | ✅ |
+| Modelagem | ✅ |
+| Engenharia | ✅ |
+| Consolidação | ✅ |
+| Desenvolvimento Core | ⏳ |
+| MVP | ⏳ |
 
 ---
 
@@ -314,3 +311,5 @@ Idealizador e mantenedor do projeto GPA.
 Projeto desenvolvido com foco no apoio aos processos de ensino e aprendizagem por meio de recursos pedagógicos digitais fundamentados em evidências.
 
 **GPA — Ferramenta Multiplataforma de Apoio aos Processos de Ensino e Aprendizagem**
+
+**Versão:** v1.3.3

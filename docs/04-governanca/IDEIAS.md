@@ -1,19 +1,14 @@
-# IDEIAS.md
+# IDEIAS
 
-# Banco de Ideias
+# Banco de Ideias — GPA
 
-**Nenhuma ideia será perdida. Nenhuma ideia será implementada sem amadurecimento.**
+**Versão:** v1.3.3
 
-**Ferramenta Multiplataforma de Apoio à Alfabetização**  
-**Versão:** 0.2.2
+## Objetivo
+Registrar propostas fora do escopo oficial do MVP. Somente passam a integrar o projeto após aprovação formal em DECISOES.md.
 
----
-
-# Objetivo
-
-Este documento registra ideias, sugestões e possibilidades de evolução da ferramenta.
-
-As ideias registradas aqui não fazem parte do escopo oficial da versão atual.
+## Situação Atual
+As ideias permanecem como backlog estratégico.
 
 Uma ideia somente passa a integrar a arquitetura oficial após:
 
@@ -101,11 +96,51 @@ Possíveis variáveis:
 
 ---
 
-# Histórico
+### IDEIA 006 — Inteligência Artificial Assistiva
+**Status:** 💡 Ideia
 
-| Versão | Alteração |
+Assistente para apoiar planejamento pedagógico e interpretação de indicadores.
+
+---
+
+### IDEIA 007 — Novos Domínios Pedagógicos
+**Status:** 💡 Ideia
+
+Expandir a arquitetura para Matemática, Ciências, Línguas e outros domínios.
+
+---
+
+### IDEIA 008 — Recomendações Adaptativas
+**Status:** 💡 Ideia
+
+Sugestão automática de atividades com base no histórico do estudante.
+
+---
+
+### IDEIA 009 — Sincronização Offline Inteligente
+**Status:** 💡 Ideia
+
+Melhorar sincronização entre SQLite e PostgreSQL em ambientes com conectividade limitada.
+
+---
+
+### IDEIA 010 — Marketplace de Objetos Pedagógicos
+**Status:** 💡 Ideia
+
+Repositório compartilhado para distribuição de Objetos Pedagógicos entre redes de ensino.
+
+---
+
+## Histórico
+|Versão|Alteração|
 |---|---|
-| 0.1.0 | Criação do documento |
-| 0.2.0 | Inclusão das ideias 002, 003 e 004 |
-| 0.2.1 | Inclusão da ideia 005 |
+| 1.3.3 |Atualização do documento e inclusão das ideias 006–010.|
 | 0.2.2 | Padronização do documento e atualização de nomenclatura |
+| 0.2.1 | Inclusão da ideia 005 |
+| 0.2.0 | Inclusão das ideias 002, 003 e 004 |
+| 0.1.0 | Criação do documento |
+
+
+
+
+

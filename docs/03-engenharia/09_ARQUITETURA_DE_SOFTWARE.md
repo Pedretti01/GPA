@@ -2,187 +2,154 @@
 
 # Arquitetura de Software
 
-**Ferramenta Multiplataforma de Apoio à Alfabetização**  
-**Versão:** 0.3.0
+**GPA – Gamificação Pedagógica de Aprendizagens**  
+**Documento:** Arquitetura de Software  
+**Versão:** 1.3.3
 
 ---
 
 # 1. Introdução
 
-Este documento apresenta a arquitetura de software da ferramenta.
-
-Seu objetivo é definir a organização lógica do sistema, estabelecendo responsabilidades, módulos e fluxos de informação.
-
-A arquitetura foi concebida para permitir crescimento incremental, reutilização de componentes, independência tecnológica e funcionamento multiplataforma.
+Este documento apresenta a arquitetura de software do GPA, definindo a organização da plataforma, seus componentes, camadas e diretrizes para evolução tecnológica.
 
 ---
 
 # 2. Objetivos da Arquitetura
 
-A arquitetura deverá permitir:
-
-- desenvolvimento incremental;
-- baixo acoplamento;
-- alta reutilização;
-- fácil manutenção;
-- escalabilidade;
-- independência entre módulos;
-- execução em Desktop, Web, Tablet e Smartphone.
+- Modularidade
+- Escalabilidade
+- Baixo acoplamento
+- Alta coesão
+- Reutilização de componentes
+- Independência tecnológica
+- Execução multiplataforma
 
 ---
 
-# 3. Arquitetura Multiplataforma
+# 3. Visão Geral da Arquitetura
 
-A arquitetura de software foi concebida para permitir execução em diferentes ambientes computacionais utilizando um único núcleo de domínio.
+A arquitetura do GPA é organizada em componentes independentes que compartilham um único núcleo de domínio.
 
-Todas as implementações deverão compartilhar:
+<div align="center">
 
-- Arquitetura Pedagógica;
-- Modelo de Dados;
-- Regras de Negócio;
-- Objetos Pedagógicos;
-- Indicadores;
-- Relatórios.
+![Arquitetura da Plataforma GPA](../assets/arquitetura/arquitetura-geral-gpa.png)
 
-Cada plataforma implementará apenas sua camada de apresentação, respeitando as características do dispositivo utilizado.
+**Figura 1 – Arquitetura da Plataforma GPA**
+
+</div>
+
+A Figura 1 resume os principais componentes da arquitetura. O detalhamento encontra-se nas figuras seguintes.
 
 ---
 
-# 4. Camadas
+# 4. Princípios Arquiteturais
 
-A ferramenta será organizada em camadas:
+- Domínio pedagógico como núcleo do sistema.
+- Arquitetura modular.
+- Evolução incremental.
+- Segurança.
+- Interoperabilidade.
+- Multiplataforma.
 
-```text
-Interface
-    ↓
-Aplicação
-    ↓
-Domínio
-    ↓
-Dados
-    ↓
-Persistência
+---
+
+# 5. Perfis de Usuário
+
+A arquitetura contempla os seguintes perfis:
+
+- Administrador
+- Gestor Educacional
+- Diretor Escolar
+- Coordenador Pedagógico
+- Professor
+- Responsável
+- Estudante
+
+---
+
+# Arquitetura da Plataforma GPA
+
+## 1. Arquitetura Geral do GPA
+
+```markdown
+![Arquitetura Geral](../assets/arquitetura/arquitetura-geral-gpa.png)
 ```
 
----
-
-# 5. Camada de Interface
-
-Responsável pela interação com os usuários.
-
-Perfis previstos:
-
-- Professor;
-- Estudante;
-- Administrador em versões futuras.
-
-A Interface não contém regras pedagógicas.
+Apresenta a visão macro da plataforma e seus principais componentes.
 
 ---
 
-# 6. Camada de Aplicação
+## 2. Arquitetura em Camadas
 
-Responsável por controlar os fluxos do sistema.
-
-Exemplos:
-
-- iniciar atividade;
-- concluir atividade;
-- registrar tentativa;
-- gerar relatório.
-
----
-
-# 7. Camada de Domínio
-
-Representa o núcleo da ferramenta.
-
-Aqui ficam as regras relacionadas a:
-
-- Objetos Pedagógicos;
-- Planos de Atividade;
-- Associação Trimodal;
-- Execuções;
-- Indicadores;
-- Relatórios;
-- Gamificação Pedagógica.
-
----
-
-# 8. Camada de Dados
-
-Responsável pela manipulação das informações.
-
-Essa camada não contém regras pedagógicas.
-
----
-
-# 9. Camada de Persistência
-
-Responsável pelo armazenamento permanente.
-
-Exemplos:
-
-- banco de dados;
-- arquivos;
-- imagens;
-- áudios.
-
----
-
-# 10. Módulos Principais
-
-A arquitetura inicial considera:
-
-- Cadastro;
-- Atividades;
-- Indicadores;
-- Relatórios;
-- Dashboards;
-- Configurações.
-
----
-
-# 11. Fluxo Geral
-
-```text
-Professor
-    ↓
-Configura Plano de Atividade
-    ↓
-Estudante
-    ↓
-Executa Atividade
-    ↓
-Sistema
-    ↓
-Registra Indicadores
-    ↓
-Produz Evidências
-    ↓
-Relatórios e Dashboards
-    ↓
-Professor
+```markdown
+![Arquitetura em Camadas](../assets/arquitetura/arquitetura-camadas.png)
 ```
 
----
-
-# 12. Princípios Arquiteturais
-
-Toda implementação deverá respeitar:
-
-- modularidade;
-- reutilização;
-- baixo acoplamento;
-- alta coesão;
-- evolução incremental;
-- independência tecnológica;
-- domínio pedagógico como núcleo do sistema.
+Representa a separação entre Frontend, Aplicação, Serviços, Domínio, Infraestrutura e Persistência.
 
 ---
 
-# 13. Considerações Finais
+## 3. Arquitetura de Frontend (Flutter)
 
-A arquitetura de software foi concebida para preservar simplicidade, modularidade e evolução incremental.
+```markdown
+![Frontend Flutter](../assets/arquitetura/frontend-flutter.png)
+```
 
-A separação entre Interface, Aplicação, Domínio, Dados e Persistência garante independência entre os componentes e permite que a ferramenta evolua de forma sustentável.
+Apresenta os módulos da interface, autenticação, atividades, dashboards, gamificação, relatórios e configurações.
+
+---
+
+## 4. Arquitetura de Backend (Python)
+
+```markdown
+![Backend Python](../assets/arquitetura/backend-python.png)
+```
+
+Apresenta os serviços responsáveis pelo motor pedagógico, gamificação, indicadores, relatórios, auditoria e persistência.
+
+---
+
+## 5. Fluxograma de Comunicação entre Componentes
+
+```markdown
+![Fluxo de Comunicação](../assets/arquitetura/fluxo-comunicacao.png)
+```
+
+Representa o fluxo de comunicação entre Cliente, API, Backend e Banco de Dados.
+
+---
+
+## 6. Arquitetura de Implementação (Deployment)
+
+```markdown
+![Deployment](../assets/arquitetura/deployment.png)
+```
+
+Apresenta a infraestrutura de implantação da plataforma, incluindo servidores, API, banco de dados, monitoramento, backup e segurança.
+
+---
+
+# 6. Arquitetura Multiplataforma
+
+O GPA compartilha o mesmo núcleo de domínio entre Desktop, Web, Tablet e Smartphone.
+
+---
+
+# 7. Segurança Arquitetural
+
+A arquitetura contempla autenticação, autorização, HTTPS, auditoria, logs e conformidade com a LGPD.
+
+---
+
+# 8. Relação com os Demais Documentos
+
+- 10_MODELO_DE_DOMINIO.md
+- 11_MODELO_CONCEITUAL.md
+- 16_ARQUITETURA_MULTIPLATAFORMA.md
+- 17_FLUXOS_DA_APLICACAO.md
+
+---
+
+# 9. Considerações Finais
+
+A arquitetura do GPA estabelece a base técnica para evolução sustentável da plataforma, alinhando arquitetura pedagógica, software e infraestrutura.

@@ -2,15 +2,17 @@
 
 # Manifesto Arquitetural e Pedagógico
 
-**Ferramenta Multiplataforma de Apoio à Alfabetização**  
+**Ferramenta Multiplataforma de Apoio à Aprendizagens**
+**Documento:** Manifesto    
 **Versão:** 0.3.0  
 **Status:** Documento Fundador
+**Área:** Fundamentos
 
 ---
 
 # 1. Declaração do Projeto
 
-A Plataforma de Gamificação Pedagógica para Alfabetização é uma **ferramenta multiplataforma de apoio ao processo de alfabetização**, fundamentada em **Objetos Pedagógicos**, **Atividades Parametrizadas**, **Gamificação Pedagógica** e **Learning Analytics**.
+A Plataforma de Gamificação Pedagógica para Aprendizagens é uma **ferramenta multiplataforma de apoio ao processo de aprendizagens**, fundamentada em **Objetos Pedagógicos**, **Atividades Parametrizadas**, **Gamificação Pedagógica** e **Learning Analytics**.
 
 Seu objetivo é produzir evidências que apoiem o trabalho do professor, respeitando o percurso de aprendizagem de cada estudante.
 
@@ -18,13 +20,13 @@ Seu objetivo é produzir evidências que apoiem o trabalho do professor, respeit
 
 # 2. Missão
 
-Apoiar professores no acompanhamento do processo de alfabetização por meio de atividades gamificadas, indicadores objetivos e evidências pedagógicas.
+Apoiar professores no acompanhamento do processo de aprendizagens por meio de atividades gamificadas, indicadores objetivos e evidências pedagógicas.
 
 ---
 
 # 3. Visão
 
-Construir uma ferramenta educacional multiplataforma, modular e evolutiva, capaz de apoiar o processo de alfabetização em diferentes contextos de uso.
+Construir uma ferramenta educacional multiplataforma, modular e evolutiva, capaz de apoiar o processo de aprendizagens em diferentes contextos de uso.
 
 ---
 
@@ -216,12 +218,17 @@ docs/
 │
 ├── 03-engenharia/
 │   ├── 09_ARQUITETURA_DE_SOFTWARE.md
-│   ├── 10_MODELO_DE_DADOS.md
-│   ├── 11_DASHBOARDS.md
-│   ├── 12_EXPERIENCIA_DO_USUARIO.md
-│   ├── 13_ARQUITETURA_MULTIPLATAFORMA.md
-│   ├── 14_FLUXOS_DA_APLICACAO.md
-│   └── 15_SEGURANCA_E_PRIVACIDADE.md
+│   ├── 10_MODELO_DE_DOMINIO.md
+│   ├── 11_MODELO_CONCEITUAL.md
+│   ├── 12_MODELO_LOGICO.md
+│   ├── 13_MODELO_FISICO.md
+│   ├── 14_DIAGRAMA_DE_CLASSES.md
+│   ├── 15_DIAGRAMA_DE_CASOS_DE_USO.md
+│   ├── 16_ARQUITETURA_MULTIPLATAFORMA.md
+│   ├── 17_FLUXOS_DA_APLICACAO.md
+│   ├── 18_SEGURANCA_E_PRIVACIDADE.md
+│   ├── 19_DASHBOARDS.md
+│   └── 20_EXPERIENCIA_DO_USUARIO.md
 │
 ├── 04-governanca/
 │   ├── CHANGELOG.md
@@ -229,8 +236,8 @@ docs/
 │   └── IDEIAS.md
 │
 └── 05-referencias/
-    ├── 16_REFERENCIAS.md
-    └── 17_ROADMAP.md
+    ├── 21_REFERENCIAS.md
+    └── 22_ROADMAP.md
 ```
 
 Cada documento possui uma responsabilidade específica e complementa os demais, formando a especificação funcional e arquitetural oficial do projeto.
@@ -255,4 +262,4 @@ A evolução da ferramenta deverá preservar:
 
 A finalidade do projeto não é criar apenas um jogo digital.
 
-A finalidade é construir uma ferramenta educacional de apoio à alfabetização, capaz de crescer de forma organizada, fundamentada e pedagogicamente responsável.
+A finalidade é construir uma ferramenta educacional de apoio à aprendizagens, capaz de crescer de forma organizada, fundamentada e pedagogicamente responsável.

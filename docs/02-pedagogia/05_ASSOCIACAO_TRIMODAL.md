@@ -2,8 +2,10 @@
 
 # Módulo I — Associação Trimodal
 
-**Ferramenta Multiplataforma de Apoio à Alfabetização**  
-**Versão:** 0.3.0
+**GPA – Gamificação Pedagógica de Aprendizagens**  
+**Documento:** Módulo I — Associação Trimodal 
+**Versão:** 0.2.0
+**Área:** Pedagogia
 
 ---
 

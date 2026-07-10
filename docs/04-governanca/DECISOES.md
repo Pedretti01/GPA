@@ -1,10 +1,11 @@
-# DECISOES.md
+# DECISOES
 
-# Decisões Arquiteturais do Projeto
+# Registro de Decisões Arquiteturais e Estratégicas — GPA
 
-**GPA – Ferramenta Multiplataforma de Apoio aos Processos de Ensino e Aprendizagem**
+**Versão:** v1.3.3
 
-**Versão:** 0.3.0
+## Objetivo
+Registrar as decisões oficiais aprovadas que orientam arquitetura, pedagogia e evolução do GPA. Toda decisão substitui entendimentos anteriores e deve possuir rastreabilidade.
 
 ---
 
@@ -122,4 +123,35 @@ Garantir evolução incremental, reduzir complexidade e preservar o foco na entr
 
 ---
 
+## DECISÃO 011 — Arquitetura Multiplataforma
+**Status:** Aprovado
 
+O GPA adotará uma única base arquitetural para Desktop, Web, Tablet e Smartphone, compartilhando domínio, regras de negócio e modelo de dados, diferenciando apenas a camada de apresentação.
+
+---
+
+## DECISÃO 012 — Documentação Viva
+**Status:** Aprovado
+
+Toda alteração arquitetural deverá ser registrada previamente na documentação oficial e posteriormente implementada, mantendo rastreabilidade no CHANGELOG.
+
+---
+
+## DECISÃO 013 — Core + Domínios Pedagógicos
+**Status:** Aprovado
+
+A evolução ocorrerá através de um Core reutilizável e Domínios Pedagógicos independentes.
+
+---
+
+## DECISÃO 014 — Auditoria Técnica da Documentação
+**Status:** Aprovado
+
+A documentação oficial passa a ser revisada através de protocolo de auditoria técnica contemplando consistência técnica, pedagógica, arquitetural, diagramas, fluxos e impacto documental.
+
+---
+
+## Histórico
+| Versão | Alteração |
+|---|---|
+|1.3.3|Consolidação das decisões arquiteturais e inclusão das decisões 011–014.|

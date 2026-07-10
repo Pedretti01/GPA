@@ -2,8 +2,10 @@
 
 # Arquitetura Pedagógica
 
-**Ferramenta Multiplataforma de Apoio à Alfabetização**  
+**GPA – Gamificação Pedagógica de Aprendizagens**  
+**Documento:** Arquitetura Pedagógica 
 **Versão:** 0.2.0
+**Área:** Pedagogia
 
 ---
 
