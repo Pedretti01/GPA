@@ -34,11 +34,11 @@ A arquitetura do GPA é organizada em componentes independentes que compartilham
 
 ![Arquitetura da Plataforma GPA](../assets/arquitetura/arquitetura-plataforma-gpa.png)
 
-**Figura 1 – Arquitetura da Plataforma GPA**
-
-</div>
+**Figura 1 – Arquitetura da Plataforma GPA - Visão Geral**
 
 A Figura 1 resume os principais componentes da arquitetura. O detalhamento encontra-se nas figuras seguintes.
+
+</div>
 
 ---
 
@@ -75,13 +75,11 @@ A arquitetura contempla os seguintes perfis:
 
 ![Arquitetura Geral](../assets/arquitetura/arquitetura-geral-gpa.png)
 
-**Figura 2 – Arquitetura Geral - GPA**
-
-</div>
-
-```
+**Figura 2 – Arquitetura Geral - GPA - Detalhada**
 
 Apresenta a visão macro da plataforma e seus principais componentes.
+
+</div>
 
 ---
 
