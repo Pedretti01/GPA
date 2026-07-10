@@ -29,7 +29,7 @@ O diagrama não representa a arquitetura de software nem o modelo de dados do si
 
 <div align="center">
 
-![Visão Geral do GPA](../assets/diagramas/visao-geral-gpa.svg)
+![Visão Geral do GPA](..docs\assets\diagrama\visao-geral-gpa.png)
 
 **Figura 1 – Visão conceitual da plataforma GPA.**
 
