@@ -113,11 +113,15 @@ Apresenta os módulos da interface, autenticação, atividades, dashboards, gami
 
 ## 4. Arquitetura de Backend (Python)
 
-```markdown
+<div align="center">
+
 ![Backend Python](../assets/arquitetura/backend-python.png)
-```
+
+**Figura 4 – Arquitetura Geral - GPA - Backend (Python)**
 
 Apresenta os serviços responsáveis pelo motor pedagógico, gamificação, indicadores, relatórios, auditoria e persistência.
+
+</div>
 
 ---
 
