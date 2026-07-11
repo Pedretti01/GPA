@@ -75,7 +75,7 @@ A arquitetura contempla os seguintes perfis:
 
 ![Arquitetura Geral](../assets/arquitetura/arquitetura-geral-gpa.png)
 
-**Figura 2 – Arquitetura Geral - GPA - Detalhada**
+**Figura 2 – Arquitetura Geral - GPA - Visão Detalhada**
 
 Apresenta a visão macro da plataforma e seus principais componentes.
 
@@ -85,11 +85,15 @@ Apresenta a visão macro da plataforma e seus principais componentes.
 
 ## 2. Arquitetura em Camadas
 
-```markdown
+<div align="center">
+
 ![Arquitetura em Camadas](../assets/arquitetura/arquitetura-camadas.png)
-```
+
+**Figura 3 – Arquitetura Geral - GPA - Camadas**
 
 Representa a separação entre Frontend, Aplicação, Serviços, Domínio, Infraestrutura e Persistência.
+
+</div>
 
 ---
 
