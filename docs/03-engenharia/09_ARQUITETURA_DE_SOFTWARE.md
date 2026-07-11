@@ -99,11 +99,15 @@ Representa a separação entre Frontend, Aplicação, Serviços, Domínio, Infra
 
 ## 3. Arquitetura de Frontend (Flutter)
 
-```markdown
+<div align="center">
+
 ![Frontend Flutter](../assets/arquitetura/frontend-flutter.png)
-```
+
+**Figura 4 – Arquitetura Geral - GPA - Frontend (Flutter)**
 
 Apresenta os módulos da interface, autenticação, atividades, dashboards, gamificação, relatórios e configurações.
+
+</div>
 
 ---
 
