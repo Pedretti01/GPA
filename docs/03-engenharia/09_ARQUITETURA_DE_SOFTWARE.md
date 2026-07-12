@@ -127,11 +127,15 @@ Apresenta os serviços responsáveis pelo motor pedagógico, gamificação, indi
 
 ## 5. Fluxograma de Comunicação entre Componentes
 
-```markdown
+<div align="center">
+
 ![Fluxo de Comunicação](../assets/arquitetura/fluxo-comunicacao.png)
-```
+
+**Figura 5 – Arquitetura Geral - GPA - Fluxo de Comunicação interna**
 
 Representa o fluxo de comunicação entre Cliente, API, Backend e Banco de Dados.
+
+</div>
 
 ---
 
