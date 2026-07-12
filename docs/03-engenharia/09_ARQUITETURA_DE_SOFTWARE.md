@@ -117,7 +117,7 @@ Apresenta os módulos da interface, autenticação, atividades, dashboards, gami
 
 ![Backend Python](../assets/arquitetura/backend-python.png)
 
-**Figura 4 – Arquitetura Geral - GPA - Backend (Python)**
+**Figura 5 – Arquitetura Geral - GPA - Backend (Python)**
 
 Apresenta os serviços responsáveis pelo motor pedagógico, gamificação, indicadores, relatórios, auditoria e persistência.
 
@@ -131,7 +131,7 @@ Apresenta os serviços responsáveis pelo motor pedagógico, gamificação, indi
 
 ![Fluxo de Comunicação](../assets/arquitetura/fluxo-comunicacao.png)
 
-**Figura 5 – Arquitetura Geral - GPA - Fluxo de Comunicação interna**
+**Figura 6 – Arquitetura Geral - GPA - Fluxo de Comunicação interna**
 
 Representa o fluxo de comunicação entre Cliente, API, Backend e Banco de Dados.
 
@@ -141,11 +141,15 @@ Representa o fluxo de comunicação entre Cliente, API, Backend e Banco de Dados
 
 ## 6. Arquitetura de Implementação (Deployment)
 
-```markdown
+<div align="center">
+
 ![Deployment](../assets/arquitetura/deployment.png)
-```
+
+**Figura 6 – Arquitetura de Implementação - GPA - Deployment**
 
 Apresenta a infraestrutura de implantação da plataforma, incluindo servidores, API, banco de dados, monitoramento, backup e segurança.
+
+</div>
 
 ---
 
