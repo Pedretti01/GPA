@@ -218,7 +218,7 @@ docs/
 │
 ├── 03-engenharia/
 │   ├── 09_ARQUITETURA_DE_SOFTWARE.md
-│   ├── 10_MODELO_DE_DOMINIO.md
+│   ├── 10_ARQUITETURA_DE_DOMINIO.md
 │   ├── 11_MODELO_CONCEITUAL.md
 │   ├── 12_MODELO_LOGICO.md
 │   ├── 13_MODELO_FISICO.md

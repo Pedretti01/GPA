@@ -167,7 +167,7 @@ A arquitetura contempla autenticação, autorização, HTTPS, auditoria, logs e 
 
 # 8. Relação com os Demais Documentos
 
-- 10_MODELO_DE_DOMINIO.md
+- 10_ARQUITETURA_DE_DOMINIO.md
 - 11_MODELO_CONCEITUAL.md
 - 16_ARQUITETURA_MULTIPLATAFORMA.md
 - 17_FLUXOS_DA_APLICACAO.md
